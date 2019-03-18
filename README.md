@@ -1,5 +1,9 @@
 # quizzes-etc
-quizzes and other stuff made with dictionaries
+quizzes and other stuff made with dictionaries.
+
+create a new repl in repl.it & link to the github repository
+
+note: you need to use turtle instead of tk in repl.it
 
 ## capitals-quizz
 
