@@ -24,3 +24,10 @@ translating an input string into morse code using a dictionary
 ## random-maths questions
 
 convert the scratch maths quizz into python
+
+## tkinter etchasketch
+
+demonstrates python key bindings to draw lines on the screen
+
+## tkinter pypong
+
