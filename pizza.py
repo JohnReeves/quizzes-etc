@@ -1,5 +1,6 @@
 # import libraries
-from Tkinter import * 
+from tkinter import * 
+from random import *
 
 # create the top level Tk object
 window=Tk()
