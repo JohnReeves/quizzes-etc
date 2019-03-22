@@ -15,13 +15,9 @@ jokes=\
 # or make many, so you can choose the questions too
 
 for question, answer in jokes.items():
-  response = input("What is the capital of %s?\n--->" % question)
-  if response.capitalize() != answer:
-    print("No, the capital of %s is %s." % (question, answer))
+  response = input("%s: \n%s?\n--->" % question)
+  if response.lower() != answer:
+    print("No, %s is %s." % (question, answer))
   else:
     print("Yes, that's correct!")
     score+=1
-
-numberofquestions = len(jokes)
-percent = ( 100 * score/numberofquestions )
-print("You got %d%% out of %d!" % (percent, numberofquestions))
