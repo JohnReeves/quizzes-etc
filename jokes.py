@@ -1,11 +1,11 @@
 score=0
 
-questions=\
+jokes=\
   {
-  "England":"London",
-  "Spain":"Madrid",
-  "France":"Paris",
-  "Portugal":"Lisbon"
+  "What is brown, hairy and wears sunglasses?":"A coconut on vacation :-)",
+  "What did the Dalmation say after lunch?":"That hit the spot :-)",
+  "Why did the kid cross the playground?":"To get to the other slide :-)",
+  "How do you stop an astronaut's baby from crying?":"You rocket :-)"
   #add more questions
 }
 
@@ -14,7 +14,7 @@ questions=\
 # make your own dictionary of questions
 # or make many, so you can choose the questions too
 
-for question, answer in questions.items():
+for question, answer in jokes.items():
   response = input("What is the capital of %s?\n--->" % question)
   if response.capitalize() != answer:
     print("No, the capital of %s is %s." % (question, answer))
@@ -22,6 +22,6 @@ for question, answer in questions.items():
     print("Yes, that's correct!")
     score+=1
 
-numberofquestions = len(questions)
+numberofquestions = len(jokes)
 percent = ( 100 * score/numberofquestions )
 print("You got %d%% out of %d!" % (percent, numberofquestions))
