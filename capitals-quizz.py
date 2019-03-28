@@ -5,7 +5,13 @@ questions=\
   "England":"London",
   "Spain":"Madrid",
   "France":"Paris",
-  "Portugal":"Lisbon"
+  "Portugal":"Lisbon",
+  "Germany":"Berlin",
+  "Italy":"Rome",
+  "Poland":"Warsaw",
+  "Russia":"Moscow",
+  "Australia":"Canberra",
+  "Austria":"Vienna"
   #add more questions
 }
 
