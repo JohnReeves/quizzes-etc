@@ -4,7 +4,10 @@ jokes=\
   "What is brown, hairy and wears sunglasses":"A coconut on vacation",
   "What did the Dalmation say after lunch":"That hit the spot",
   "Why did the kid cross the playground":"To get to the other slide",
-  "How do you stop an astronaut's baby from crying":"You rocket"
+  "How do you stop an astronaut's baby from crying":"You rocket",
+  "What do you call a dinosaur that is sleeping":"A dino-snore",
+  "What is fast loud and crunchy":"A rocket chip",
+  "What did one plate say to the other plate":"Dinner is on me"
   #add more questions
 }
 
